@@ -1,0 +1,396 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   border: none;
+
+}
+
+body,
+button {
+   font-family: "Roboto", sans-serif;
+}
+
+body {
+   background: #F0EBE1;
+}
+
+header {
+   margin: 16px 0;
+   padding: 16px 24px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid #2625223D;
+   border-radius: 32px;
+}
+
+.container {
+   width: 1312px;
+   margin: auto;
+   border: 1px solid black;
+}
+
+.logo {
+   display: flex;
+   width: 100px;
+   gap: 8px;
+
+   h3 {
+      font-size: 15px;
+   }
+}
+
+.nav {
+   display: flex;
+   gap: 24px;
+
+   a {
+      padding: 8px;
+      color: #A4A19A;
+   }
+
+   a.active {
+      color: black;
+      font-weight: bold;
+   }
+}
+
+.search {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+
+.search__input {
+   button {
+      width: 37px;
+      height: 37px;
+      border-radius: 50%;
+      background-color: #E0BCD2;
+      cursor: pointer;
+   }
+}
+
+button {
+   background-color: #262522;
+   color: white;
+   padding: 12px 24px;
+   border-radius: 24px;
+}
+
+/* recipes css */
+.recipes {
+   .recipes-top {
+      text-align: center;
+
+      .beef {
+         border: 1px solid gray;
+         color: gray;
+         background: none;
+      }
+   }
+
+   .buts {
+      display: flex;
+      gap: 20px;
+      margin-left: 200px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+
+      .STARTER {
+         border: 1px solid black;
+         color: black;
+         background: #9FDC26;
+      }
+   }
+
+   .recipes-btn {
+      padding: 4px 8px;
+      font-size: 14px;
+      text-transform: uppercase;
+      background-color: #EE6352;
+      margin-bottom: 8px;
+   }
+
+   h3 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+   }
+
+   p {
+      margin-bottom: 40px;
+      font-weight: 300;
+      line-height: 22.4px;
+      letter-spacing: 0.01em;
+      width: 426px;
+      margin: auto;
+   }
+}
+
+.recipes-buttons {
+   margin-bottom: 40px;
+}
+
+.recipes-cards {
+   .card {
+      width: 427px;
+      border-radius: 24px;
+      border: 1px solid #26252229;
+
+
+      .card-text {
+         background: #FFFBF2;
+         border-bottom-right-radius: 24px;
+         border-bottom-left-radius: 24px;
+         padding: 24px 24px 16px;
+
+         h4 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28.8px;
+            letter-spacing: -0.01em;
+            margin-bottom: 12px;
+         }
+
+         p {
+            width: 379px;
+            margin-bottom: 54px;
+
+         }
+
+         div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+               margin-bottom: 0;
+               font-size: 12px;
+               font-weight: 500;
+               line-height: 14.4px;
+               letter-spacing: 0.01em;
+               width: auto;
+               margin: 0;
+
+            }
+
+            button {
+               font-size: 14px;
+               font-weight: 500;
+               line-height: 14px;
+               padding: 12px 24px;
+               text-transform: uppercase;
+               background-color: transparent;
+               border: 1px solid #2625229D;
+               color: black;
+            }
+         }
+      }
+   }
+}
+
+.karty {
+   display: flex;
+   gap: 3px;
+}
+
+
+.hero {
+   img {
+      width: 1308px;
+      height: 577px;
+      border-radius: 32px;
+   }
+}
+
+.sini .chon {
+   background: #C4E5FC;
+   width: 1308px;
+   height: 577px;
+   border-radius: 32px;
+}
+
+.our {
+   h1 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0.01em;
+      color: black;
+      margin-left: -800px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+   }
+
+   p {
+      color: #262522CC;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 22.4px;
+      letter-spacing: 0.01em;
+      text-align: left;
+   }
+}
+
+.menu {
+   position: relative;
+}
+
+.seemore {
+   border: 1px solid black;
+   background: none;
+   color: black;
+   position: absolute;
+   margin-left: -1250px;
+   margin-top: 450px;
+}
+
+.our1 {
+   margin-top: -580px;
+   margin-left: 640px;
+   /* border: 1px solid white; */
+   width: 650px;
+   height: 550px;
+   position: absolute;
+
+   .kart5 {
+      margin-left: auto;
+   }
+}
+
+.menu {
+   position: relative;
+   display: flex;
+}
+
+
+.ours {
+   span {
+      font-size: 25px;
+      margin-left: 400px;
+      margin-top: 400px;
+      margin: 400px;
+   }
+}
+
+.bbimg {
+   border-bottom: 2px solid gray;
+
+}
+
+.eimg {
+   border-bottom: 2px solid gray;
+}
+
+.uimg {
+   border-bottom: 2px solid gray;
+}
+
+.timg {
+   border-bottom: 2px solid gray;
+}
+
+.bimg {
+   border-bottom: 2px solid gray;
+}
+
+.hero {
+   position: relative;
+
+   p {
+      font-size: 80px;
+      position: absolute;
+      margin-top: -500px;
+      color: white;
+      /* margin-left: 250px; */
+      text-align: center;
+   }
+
+   .span1 {
+      color: #F0EBE1;
+      font-size: 21px;
+      margin-top: 300px;
+      position: absolute;
+      text-align: center;
+      margin-left: -850px;
+   }
+
+   .explore {
+      background: orange;
+      position: absolute;
+      width: 180px;
+      color: black;
+      margin-left: -780px;
+      margin-top: 445px;
+   }
+}
+
+.tort {
+   margin-left: -1295px;
+   margin-top: 440px;
+}
+
+.besh {
+   margin-top: 440px;
+}
+
+.alty {
+   margin-top: 440px;
+}
+
+.logo2 {
+   display: flex;
+   gap: 8px;
+   width: 1300px;
+   height: 150px;
+   background: black;
+
+   h3 {
+      color: white;
+      font-size: 15px;
+      /* text-align: center; */
+   }
+   
+
+}
+
+.navv {
+   display: flex;
+   gap: 50px;
+   margin-left: 400px;
+   margin-top: 20px;
+
+   a {
+      color: white;
+   }
+}
+
+div .container {
+   margin-left: -1295px;
+   margin-top: 990px;
+}
+.srt {
+   width: 50px;
+   height: 50px;
+   display: flex;
+   gap: 25px;
+   margin-left: 300px;
+}
+.akr {
+   color: white;
+   margin-left: -600px;
+   margin-top: 100px;
+}
